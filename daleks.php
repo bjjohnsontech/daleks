@@ -325,7 +325,7 @@ function takeTurn(event)
         if (go)
         {
             moveDaleks();
-            //alive();
+            alive();
             collision();
             restore();
             win();
